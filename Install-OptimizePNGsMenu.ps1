@@ -46,4 +46,6 @@ Write-Host ""
 Write-Host "✓ Context menu installed!" -ForegroundColor Green
 Write-Host "  Right-click any folder or inside a folder to see 'Optimize PNGs'." -ForegroundColor Green
 Write-Host "  oxipng found at: $oxipngExe" -ForegroundColor DarkGray
+Write-Host ""
+Write-Host "  by Reda Izo · izo.red · github.com/izored" -ForegroundColor DarkGray
 pause
