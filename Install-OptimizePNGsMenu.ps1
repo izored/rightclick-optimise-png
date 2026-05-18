@@ -43,9 +43,8 @@ New-Item -Path $bgCmd -Force | Out-Null
 Set-ItemProperty -Path $bgCmd -Name "(Default)" -Value "powershell.exe -NoExit -ExecutionPolicy Bypass -Command `"& '$scriptPath' -Path '%V'`""
 
 Write-Host ""
-Write-Host "✓ Context menu installed!" -ForegroundColor Green
-Write-Host "  Right-click any folder or inside a folder to see 'Optimize PNGs'." -ForegroundColor Green
-Write-Host "  oxipng found at: $oxipngExe" -ForegroundColor DarkGray
+Write-Host "Context menu installed!" -ForegroundColor Green
+Write-Host "Right-click any folder to see Optimize PNGs" -ForegroundColor Green
+Write-Host "oxipng found at: $oxipngExe" -ForegroundColor DarkGray
 Write-Host ""
-Write-Host "  by Reda Izo · izo.red · github.com/izored" -ForegroundColor DarkGray
 pause

@@ -47,5 +47,5 @@ foreach ($file in $files) {
 Write-Host "`n================================================" -ForegroundColor Cyan
 Write-Host "Optimized: $optimized | Skipped: $skipped | Total saved: $([math]::Round($totalSaved / 1MB, 2)) MB" -ForegroundColor Green
 Write-Host "================================================" -ForegroundColor Cyan
-Write-Host "  by Reda Izo · izo.red · github.com/izored" -ForegroundColor DarkGray
+Write-Host "  by Reda Izo - izo.red - github.com/izored" -ForegroundColor DarkGray
 Write-Host ""
