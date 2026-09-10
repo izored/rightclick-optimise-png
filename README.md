@@ -1,5 +1,7 @@
 # Optimize PNG — Windows Context Menu
 
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/izored) [![Buy me a coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-ffdd00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/izored)
+
 Adds a right-click "Optimize PNGs" option to folders in Windows Explorer, powered by [oxipng](https://github.com/oxipng/oxipng).
 
 This repo is just the Windows shell integration and wrapper script — oxipng does the actual compression.
